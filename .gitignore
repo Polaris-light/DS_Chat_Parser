@@ -1,0 +1,32 @@
+# Python 编译产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+#暂存于项目的测试文件和规划
+PLAN/
+sandbox.py
+try.py
+
+# Nuitka 打包产物
+main.dist/
+main.build/
+*.spec
+main.exe
+
+# 日志文件
+debug.log
+crash.log
+
+# PyCharm 配置文件（如果你确定要排除）
+.idea/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
