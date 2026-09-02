@@ -15,8 +15,9 @@ DS Chat Parser 是一款图形化桌面工具，用于解析 DeepSeek 官方导�
 - **图形化界面**：基于 PySide6 构建，操作直观，无需命令行
 
 ## 🖼️ 效果预览
+<img height="600" alt="ds_chat_parser_UI" src="https://github.com/user-attachments/assets/0db1e95c-9174-46be-8ea8-7d7cd8def076" /> 
 
-> 你可以在 Release 页面下载后直接运行体验。
+你可以在 Release 页面下载后直接运行体验。
 ## 📦 下载与使用
 
 ### 获取程序
@@ -42,7 +43,7 @@ DS Chat Parser 是一款图形化桌面工具，用于解析 DeepSeek 官方导�
 
 ## 🛠️ 从源码构建（可选）
 
-如果你希望自行构建或二次开发，请确保已安装 Python 3.11+ 和 Poetry/pip，然后执行：
+如果你希望自行构建或二次开发，请确保已安装 Python 3.13.14+ 和 Poetry/pip，然后执行：
 
 ```bash
 # 克隆仓库
