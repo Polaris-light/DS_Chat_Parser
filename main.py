@@ -15,8 +15,11 @@ from custom_widgets import UiLoader
 from ds_type_defs import *
 
 def resource_path(relative_path):
-    if getattr(sys, 'frozen', False):
-        # 打包后：可执行文件所在目录
+    if hasattr(sys, '_MEIPASS'):
+        # PyInstaller 打包后：资源被解压到临时目录
+        base_path = Path(sys._MEIPASS)
+    elif getattr(sys, 'frozen', False):
+        # 其他打包工具（如 Nuitka）：资源在可执行文件旁边
         base_path = Path(sys.executable).parent
     else:
         # 开发环境：main.py 所在目录

@@ -19,12 +19,15 @@ main.dist/
 main.build/
 *.spec
 main.exe
+#PyInstaller 打包产物
+build/
+dist/
 
 # 日志文件
 debug.log
 crash.log
 
-# PyCharm 配置文件（如果你确定要排除）
+# PyCharm 配置文件
 .idea/
 
 # 系统垃圾
